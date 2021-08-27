@@ -1,4 +1,5 @@
 /app/config/parameters.yml
+/app/bootstrap.php.cache
 /build/
 /phpunit.xml
 /var/*
@@ -18,3 +19,13 @@
 web/css/*
 web/media/*
 web/uploads/*
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/app/SymfonyRequirements.php
+/bin/
+/composer.phar
+/web/app_dev.php
+/web/config.php
